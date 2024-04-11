@@ -1,3 +1,5 @@
+
+#hello
 def encode(password):
     encoded_password = ""
     for digit in password:
