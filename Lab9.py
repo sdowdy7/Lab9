@@ -4,6 +4,14 @@ def encode(password):
         encoded_digit = str((int(digit) + 3) % 10)
         encoded_password += encoded_digit
     return encoded_password
+def decode():
+    decoded = " "
+    for num in encoded_password:
+        num = (str(num-3) % 10)
+        decoded += num
+        print("test")
+    return decoded
+
 
 def main():
     while True:
